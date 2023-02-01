@@ -12,12 +12,6 @@ export class ExperienciaService {
 
   getExperiencias(): Observable<any> {
     return this.http.get<IExperiencia[]>(`api/experiencias`);
-    // return this.http.get<any>(`api/usuarios/`).pipe(
-    //     map((response) => {
-    //         const data = this.extractData(response);
-    //         return data;
-    //     }),
-    // );
 }
 
 }

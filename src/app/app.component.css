@@ -35,12 +35,8 @@ nav .btn-menu {
   align-items: center;
   color: var(--color-neutral-dark-down);
   position: relative;
-  margin-right: 70px;
+  margin-right: 5%;
 }
-
-/* .btn-menu.active-link {
-  color: red !important;
-} */
 
 nav .btn-menu.active-link .title {
   font-weight: var(--font-weight-medium);
@@ -95,67 +91,3 @@ nav .navbar-collapse {
   cursor: pointer;
   align-items: flex-start !;
 }
-
-.sticky {
-  width: 100%;
-  margin: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  overflow: hidden;
-  display: block;
-  position: sticky;
-  position: -webkit-sticky;
-  z-index: 1000;
-}
-
-/* @media screen and (max-width: 991px) {
-  .sticky {
-    overflow: inherit;
-  }
-}
-
-.sticky .header-container {
-  height: 90px;
-  background: var(--color-brand-primary);
-}
-
-@media screen and (max-width: 991px) {
-  .sticky .header-container {
-    height: 56px;
-  }
-}
-
-.sticky .header-container .header-row {
-  margin: 0 5%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.sticky .header-container .header-row .app-top-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sticky .header-container .header-row .app-top-menu .bell {
-  color: white;
-  font-size: 18px;
-}
-
-.sticky .header-container .header-row .app-top-menu .bell .mat-badge-content {
-  top: 0;
-  right: 0;
-  background: red;
-}
-
-.sticky .header-container .header-row .app-top-menu .user-name {
-  border-left: solid 1px var(--color-neutral-dark-up);
-  padding-left: 5px;
-}
-
-.sticky .header-container .header-row .app-top-menu .user-name span {
-  padding-left: 5px;
-} */

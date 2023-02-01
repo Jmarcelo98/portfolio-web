@@ -1,0 +1,36 @@
+mat-panel-title {
+  font-family: monospace;
+  font-size: x-large;
+}
+
+mat-expansion-panel {
+  margin-bottom: 2px;
+  box-shadow: 0 5px 5px -8px rgba(0, 0, 0, 0.6) !important;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+h3 {
+  margin-bottom: -5px !important;
+}
+
+h5 {
+  margin-top: 25px;
+}
+
+.datas {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-mdc-form-field+.mat-mdc-form-field {
+  margin-left: 8px;
+}

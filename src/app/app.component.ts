@@ -17,7 +17,7 @@ export class AppComponent {
 
     menuItems = [
         {
-            label: 'Experiência',
+            label: 'Experiências',
             icon: 'fi-rr-briefcase',
             visible: true,
             routerLink: '/experiencia'

@@ -19,8 +19,8 @@ export class InMemoryDataMock implements InMemoryDbService {
                 atividades: ["Desenvolvimento de características evolutivas do sistema", "Migração de sistemas",
                     "Tomada de decisões e soluções em conjunto ao analista de negócio", "Correções de bugs e análise de impacto",
                     "Sustentação de sistemas legados"],
-                tecnologias: "Java 8, 11 e 17, PrimeFaces, Angular 2+, Spring Boot, JBOSS e Oracle",
-                cliente: "POUPEX",
+                tecnologias: ["Java 8, 11 e 17", "PrimeFaces", "Angular 2+", "Spring Boot", "JBOSS", "Oracle"],
+                clientes: ["POUPEX"]
             }, {
                 empresa: 'Banco do Brasil',
                 imagem: 'bancoBrasil.jpg',
@@ -28,8 +28,8 @@ export class InMemoryDataMock implements InMemoryDbService {
                 dataInicio: new Date(2018, 9),
                 dataFim: new Date(2020, 9),
                 atividades: ["Suporte técnico", "Desenvolvimento com Java para sistemas internos"],
-                tecnologias: "Java e PrimeFaces",
-                cliente: null
+                tecnologias: ["Java", "PrimeFaces"],
+                clientes: null
             }, {
                 empresa: 'Banco Central do Brasil',
                 imagem: 'bancoCentral.png',
@@ -37,8 +37,8 @@ export class InMemoryDataMock implements InMemoryDbService {
                 dataInicio: new Date(2018, 8),
                 dataFim: new Date(2018, 9),
                 atividades: ["Desenvolvimento Front-End"],
-                tecnologias: "HTML, CSS, Bootstrap, JS e Sharepoint",
-                cliente: null
+                tecnologias: ["HTML", "CSS", "Bootstrap", " JS", "Sharepoint"],
+                clientes: null
             }
         ]
 

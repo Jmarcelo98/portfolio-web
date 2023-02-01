@@ -5,6 +5,6 @@ export interface IExperiencia {
     dataInicio: Date;
     dataFim?: Date;
     atividades: Array<string>;
-    tecnologias: string;
-    cliente?: string;
+    tecnologias: Array<string>;
+    clientes?: Array<string>;
 }

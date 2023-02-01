@@ -11,7 +11,8 @@ import { ContatoComponent } from './contato.component';
   ],
   imports: [
     CommonModule,
-    ContatoRoutingModule
+    ContatoRoutingModule,
+
   ]
 })
 export class ContatoModule { }
