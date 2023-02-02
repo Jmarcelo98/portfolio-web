@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { InMemoryDbService } from 'angular-in-memory-web-api';
+import { subtrairDatas } from 'src/app/shared/utils/utilitarias';
+
 
 @Injectable({
     providedIn: 'root'
@@ -20,7 +22,7 @@ export class InMemoryDataMock implements InMemoryDbService {
                     "Tomada de decisões e soluções em conjunto ao analista de negócio", "Correções de bugs e análise de impacto",
                     "Sustentação de sistemas legados"],
                 tecnologias: ["Java 8, 11 e 17", "PrimeFaces", "Angular 2+", "Spring Boot", "JBOSS", "Oracle"],
-                clientes: ["POUPEX"]
+                clientes: ["POUPEX - Associação de Poupança e Empréstimo"]
             }, {
                 empresa: 'Banco do Brasil',
                 imagem: 'bancoBrasil.jpg',
@@ -50,7 +52,46 @@ export class InMemoryDataMock implements InMemoryDbService {
             instagram: "https://www.instagram.com/jmarcelo098/"
         }
 
+        const sobre =
+        {
+            nome: "João Marcelo de Jesus Macedo",
+            ensino: "Ensino Superior Completo",
+            nacionalidade: "Brasileiro",
+            tempoExperiencia: subtrairDatas(new Date(2018, 9)),
+            subTitulo: "Graduado em Sistemas de Informação. Apaixonado por programação, principalmente Java, Spring Boot e Angular 2+"
+        }
 
-        return { experiencias, contatos }
+        const habilidades = [
+            {
+                nome: "Java",
+                imagem: "./assets/images/java.png",
+            },
+            {
+                nome: "Spring Boot",
+                imagem: "./assets/images/spring.png",
+            },
+            {
+                nome: "Angular 2+",
+                imagem: "./assets/images/angular.png",
+            },
+            {
+                nome: "API Rest",
+                imagem: "./assets/images/apirest.png",
+            },
+            {
+                nome: "Bootstrap",
+                imagem: "./assets/images/bootstrap.png",
+            },
+            {
+                nome: "HTML",
+                imagem: "./assets/images/html.png",
+            },
+            {
+                nome: "GitHub",
+                imagem: "./assets/images/github.png",
+            }
+        ]
+
+        return { experiencias, contatos, sobre, habilidades }
     }
 }

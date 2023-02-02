@@ -1,0 +1,18 @@
+.titulo {
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+mat-card-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@media screen and (max-width: 767px) {
+    mat-card {
+        margin-top: 20px;
+    }
+}

@@ -2,12 +2,11 @@
     <mat-expansion-panel [expanded]="step === i" (opened)="setStep(i)" hideToggle
         *ngFor="let item of experiencias; let i = index">
         <mat-expansion-panel-header>
+
             <mat-panel-title>
                 {{item.empresa}}
             </mat-panel-title>
-            <!-- <mat-panel-description>
-                Type your name and age
-            </mat-panel-description> -->
+
         </mat-expansion-panel-header>
 
         <div class="row">
@@ -95,7 +94,6 @@
 
         </div>
 
-
         <mat-action-row>
             <button mat-button color="warn" *ngIf="i != 0" (click)="prevStep()">
                 Anterior
@@ -105,6 +103,7 @@
                 Próximo
             </button>
         </mat-action-row>
+
     </mat-expansion-panel>
 
 </mat-accordion>

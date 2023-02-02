@@ -11,7 +11,6 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { HttpClientModule } from '@angular/common/http';
 import { InMemoryDataMock } from './core/mocks/in-memory-data.mock';
 
-
 @NgModule({
   declarations: [
     AppComponent
