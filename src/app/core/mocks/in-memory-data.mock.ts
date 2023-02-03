@@ -23,7 +23,7 @@ export class InMemoryDataMock implements InMemoryDbService {
                     "Sustentação de sistemas legados"],
                 tecnologias: ["Java 8, 11 e 17", "PrimeFaces", "Angular 2+", "Spring Boot", "JBOSS", "Oracle"],
                 clientes: ["POUPEX - Associação de Poupança e Empréstimo"]
-            }, 
+            },
             {
                 empresa: 'A.Telecom Teleinformática',
                 imagem: './assets/images/ATelecom.png',
@@ -54,14 +54,6 @@ export class InMemoryDataMock implements InMemoryDbService {
                 clientes: null
             }
         ]
-
-        const contatos =
-        {
-            email: "joaomarcelo588@gmail.com",
-            telefone: "(61) 99432-2941",
-            linkedin: "https://www.linkedin.com/in/jmarcelo98/",
-            instagram: "https://www.instagram.com/jmarcelo098/"
-        }
 
         const sobre =
         {
@@ -102,6 +94,36 @@ export class InMemoryDataMock implements InMemoryDbService {
             }
         ]
 
-        return { experiencias, contatos, sobre, habilidades }
+        const educacao = [
+            {
+                sigla: "UPIS",
+                nome: "União Pioneira de Integração Social",
+                imagem: "./assets/images/upis.png",
+                dataInicio: new Date(2018, 1),
+                dataFim: new Date(2021, 11),
+                curso: "Bacharelado em Sistema de Informação"
+            }
+        ]
+
+        const contatos = [
+            {
+                link: "mailto:joaomarcelo588@gmail.com",
+                span: "joaomarcelo588@gmail.com",
+                icon: "fi fi-rr-envelope contato-icon"
+            },
+            {
+                link: "https://linkedin.com/in/jmarcelo98",
+                span: "linkedin.com/in/jmarcelo98",
+                icon: "fi fi-brands-linkedin contato-icon"
+            },
+            {
+                link: "tel:+5561994322941",
+                span: "(61) 99432-2941",
+                icon: "fi fi-rr-circle-phone-flip contato-icon"
+            },
+
+        ]
+
+        return { experiencias, contatos, sobre, habilidades, educacao }
     }
 }

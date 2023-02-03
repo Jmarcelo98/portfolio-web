@@ -7,14 +7,6 @@
     margin-top: 25px;
 }
 
-.example-card {
-  box-shadow: 0 6px 10px 0px rgba(0, 0, 0, 0.6) !important;
-}
-
-mat-card-title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
 @media screen and (max-width: 767px) {
     mat-card {
         margin-top: 20px;

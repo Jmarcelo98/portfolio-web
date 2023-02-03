@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { EducacaoRoutingModule } from './educacao-routing.module';
 import { EducacaoComponent } from './educacao.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { EducacaoComponent } from './educacao.component';
   ],
   imports: [
     CommonModule,
-    EducacaoRoutingModule
+    EducacaoRoutingModule,
+    MatCardModule
   ]
 })
 export class EducacaoModule { }
