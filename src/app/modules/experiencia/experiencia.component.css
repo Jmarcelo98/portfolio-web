@@ -4,8 +4,12 @@ mat-panel-title {
 }
 
 mat-expansion-panel {
-  margin-bottom: 2px;
-  box-shadow: 0 5px 5px -8px rgba(0, 0, 0, 0.6) !important;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 7px -8px rgba(0, 0, 0, 0.6) !important;
+}
+
+.btnAccordion {
+  font-size: 16px;
 }
 
 img {

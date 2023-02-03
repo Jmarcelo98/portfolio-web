@@ -95,11 +95,11 @@
         </div>
 
         <mat-action-row>
-            <button mat-button color="warn" *ngIf="i != 0" (click)="prevStep()">
+            <button mat-button color="warn" class="btnAccordion" *ngIf="i != 0" (click)="prevStep()">
                 Anterior
             </button>
 
-            <button mat-button color="primary" *ngIf="i + 1 != experiencias.length" (click)="nextStep()">
+            <button mat-button color="primary" class="btnAccordion" *ngIf="i + 1 != experiencias.length" (click)="nextStep()">
                 Próximo
             </button>
         </mat-action-row>
