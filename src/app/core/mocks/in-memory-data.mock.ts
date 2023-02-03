@@ -14,7 +14,7 @@ export class InMemoryDataMock implements InMemoryDbService {
         const experiencias = [
             {
                 empresa: "Millenium",
-                imagem: "millenium.png",
+                imagem: "./assets/images/millenium.png",
                 cargo: "Desenvolvedor FullStack",
                 dataInicio: new Date(2021, 8),
                 dataFim: null,
@@ -26,7 +26,7 @@ export class InMemoryDataMock implements InMemoryDbService {
             }, 
             {
                 empresa: 'A.Telecom Teleinformática',
-                imagem: 'ATelecom.png',
+                imagem: './assets/images/ATelecom.png',
                 cargo: 'Estagiário',
                 dataInicio: new Date(2021, 7),
                 dataFim: new Date(2021, 8),
@@ -36,7 +36,7 @@ export class InMemoryDataMock implements InMemoryDbService {
             },
             {
                 empresa: 'Banco do Brasil',
-                imagem: 'bancoBrasil.jpg',
+                imagem: './assets/images/bancoBrasil.jpg',
                 cargo: 'Estagiário',
                 dataInicio: new Date(2018, 9),
                 dataFim: new Date(2020, 9),
@@ -45,7 +45,7 @@ export class InMemoryDataMock implements InMemoryDbService {
                 clientes: null
             }, {
                 empresa: 'Banco Central do Brasil',
-                imagem: 'bancoCentral.png',
+                imagem: './assets/images/bancoCentral.png',
                 cargo: 'Estagiário',
                 dataInicio: new Date(2018, 8),
                 dataFim: new Date(2018, 9),

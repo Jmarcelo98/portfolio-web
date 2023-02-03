@@ -70,7 +70,7 @@ nav .btn-menu:focus {
 
 nav {
   min-width: 300px;
-  box-shadow: 3px 0px 4px rgba(31, 40, 64, 0.03);
+  box-shadow: 0px 0px 4px rgba(31, 40, 64, 0.03);
 }
 
 nav .navbar-collapse {
