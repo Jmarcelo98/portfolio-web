@@ -23,7 +23,18 @@ export class InMemoryDataMock implements InMemoryDbService {
                     "Sustentação de sistemas legados"],
                 tecnologias: ["Java 8, 11 e 17", "PrimeFaces", "Angular 2+", "Spring Boot", "JBOSS", "Oracle"],
                 clientes: ["POUPEX - Associação de Poupança e Empréstimo"]
-            }, {
+            }, 
+            {
+                empresa: 'A.Telecom Teleinformática',
+                imagem: 'ATelecom.png',
+                cargo: 'Estagiário',
+                dataInicio: new Date(2021, 7),
+                dataFim: new Date(2021, 8),
+                atividades: ["Desenvolvimento com Java"],
+                tecnologias: ["Java"],
+                clientes: null
+            },
+            {
                 empresa: 'Banco do Brasil',
                 imagem: 'bancoBrasil.jpg',
                 cargo: 'Estagiário',
@@ -56,7 +67,6 @@ export class InMemoryDataMock implements InMemoryDbService {
         {
             nome: "João Marcelo de Jesus Macedo",
             ensino: "Ensino Superior Completo",
-            nacionalidade: "Brasileiro",
             tempoExperiencia: subtrairDatas(new Date(2018, 9)),
             subTitulo: "Graduado em Sistemas de Informação. Apaixonado por programação, principalmente Java, Spring Boot e Angular 2+"
         }
