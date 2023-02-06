@@ -22,7 +22,6 @@ export class InicioComponent implements OnInit {
   getSobre() {
     this.sobreService.getSobre().subscribe(res => {
       this.sobre = res
-      console.log(res);
     }, err => {
       console.log(err);
 
@@ -32,7 +31,6 @@ export class InicioComponent implements OnInit {
   getHabilidades() {
     this.habilidadeService.getHabilidades().subscribe(res => {
       this.habilidades = res
-      console.log(res);
     }, err => {
       console.log(err);
 
