@@ -11,8 +11,14 @@
   margin-top: 25px;
 }
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991px) {
+  .example-card {
+    height: 160px;
+  }
+}
+
+/* @media screen and (max-width: 991px) {
   .example-card {
     height: 170px;
   }
-}
+} */
