@@ -4,20 +4,17 @@ import { CommonModule } from '@angular/common';
 import { ContatoRoutingModule } from './contato-routing.module';
 import { ContatoComponent } from './contato.component';
 import { MatCardModule } from '@angular/material/card';
-import { EmailComponent } from './email/email.component';
-import { LinkedinComponent } from './linkedin/linkedin.component';
-
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
-    ContatoComponent,
-    EmailComponent,
-    LinkedinComponent
+    ContatoComponent
   ],
   imports: [
     CommonModule,
     ContatoRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule
   ]
 })
 export class ContatoModule { }

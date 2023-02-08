@@ -8,18 +8,19 @@
             </mat-card-header>
 
             <mat-card-content>
+                
+                <div class="row mt-4 rowItens" *ngFor="let contato of contatos">
 
-                <div class="row mt-4" *ngFor="let contato of contatos">
-
-                    <div class="col-2 col-md-1">
+                    <div class="col-2 col-md-2 col-lg-1">
 
                         <a href="{{contato.link}}" target="_blank">
                             <i [className]="contato.icon"></i>
                         </a>
-
+                        
                     </div>
+                    
 
-                    <div class="col-10 col-md-11">
+                    <div class="col-10 col-md-10 col-lg-11 center">
 
                         <a href="{{contato.link}}" class="contato-link" target="_blank">
                             <span>{{contato.span}}</span>
@@ -29,26 +30,8 @@
 
                 </div>
 
-                <!-- <div class="mt-4">
-
-                    
-
-                </div>
-
-                <div class="row mt-4">
-
-                    <app-linkedin [linkedin]="contato?.linkedin"></app-linkedin>
-
-                </div>
-
-                <div class="row mt-4">
-
-                    <app-telefone [telefone]="contato?.telefone"></app-telefone>
-
-                </div> -->
-
-
             </mat-card-content>
+
         </mat-card>
     </div>
 </div>
