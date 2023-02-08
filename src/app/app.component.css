@@ -9,6 +9,7 @@ nav .title-name {
   margin: 0px 20px;
   font-size: 20px;
   font-family: monospace;
+  cursor: pointer;
 }
 
 nav hr.name {
