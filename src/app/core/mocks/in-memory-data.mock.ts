@@ -18,11 +18,12 @@ export class InMemoryDataMock implements InMemoryDbService {
                 cargo: "Desenvolvedor FullStack",
                 dataInicio: new Date(2021, 8),
                 dataFim: null,
-                atividades: ["Desenvolvimento de características evolutivas do sistema", "Migração de sistemas",
-                    "Tomada de decisões e soluções em conjunto ao analista de negócio", "Correções de bugs e análise de impacto",
-                    "Sustentação de sistemas legados"],
-                tecnologias: ["Java 8, 11 e 17", "PrimeFaces", "Angular 2+", "Spring Boot", "JBOSS", "Oracle"],
-                clientes: ["POUPEX - Associação de Poupança e Empréstimo"]
+                atividades: ["Desenvolvimento de características evolutivas do sistema;", "Migração de sistemas;",
+                    "Tomada de decisões e soluções em conjunto ao analista de negócio;",
+                    "Correções de bugs e análise de impacto;",
+                    "Sustentação de sistemas legados."],
+                tecnologias: ["Java 8, 11 e 17;", "PrimeFaces;", "Angular 2+;", "Spring Boot;", "JBOSS;", "Oracle."],
+                clientes: ["POUPEX - Associação de Poupança e Empréstimo."]
             },
             {
                 empresa: 'A.Telecom Teleinformática',
@@ -31,7 +32,7 @@ export class InMemoryDataMock implements InMemoryDbService {
                 dataInicio: new Date(2021, 7),
                 dataFim: new Date(2021, 8),
                 atividades: ["Desenvolvimento com Java"],
-                tecnologias: ["Java"],
+                tecnologias: ["Java."],
                 clientes: null
             },
             {
@@ -41,7 +42,7 @@ export class InMemoryDataMock implements InMemoryDbService {
                 dataInicio: new Date(2018, 9),
                 dataFim: new Date(2020, 9),
                 atividades: ["Suporte técnico", "Desenvolvimento com Java para sistemas internos"],
-                tecnologias: ["Java", "PrimeFaces"],
+                tecnologias: ["Java;", "PrimeFaces."],
                 clientes: null
             }, {
                 empresa: 'Banco Central do Brasil',
@@ -50,7 +51,7 @@ export class InMemoryDataMock implements InMemoryDbService {
                 dataInicio: new Date(2018, 8),
                 dataFim: new Date(2018, 9),
                 atividades: ["Desenvolvimento Front-End"],
-                tecnologias: ["HTML", "CSS", "Bootstrap", " JS", "Sharepoint"],
+                tecnologias: ["HTML;", "CSS;", "Bootstrap;", " JS;", "Sharepoint."],
                 clientes: null
             }
         ]
@@ -109,17 +110,17 @@ export class InMemoryDataMock implements InMemoryDbService {
             {
                 link: "mailto:joaomarcelo588@gmail.com",
                 span: "joaomarcelo588@gmail.com",
-                icon: "fi fi-rr-envelope contato-icon"
+                text: "E-mail"
             },
             {
                 link: "https://linkedin.com/in/jmarcelo98",
                 span: "linkedin.com/in/jmarcelo98",
-                icon: "fi fi-brands-linkedin contato-icon"
+                text: "LinkedIn"
             },
             {
                 link: "tel:+5561994322941",
                 span: "(61) 99432-2941",
-                icon: "fi fi-rr-circle-phone-flip contato-icon"
+                text: "Telefone/WhatsApp"
             },
 
         ]

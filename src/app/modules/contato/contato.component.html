@@ -1,37 +1,21 @@
-<div class="row mb-3 row-card">
-    <div class="col-12 col-md-8">
-        <mat-card class="example-card">
-            <mat-card-header>
-                <mat-card-title-group>
-                    <mat-card-title>Meios de contato</mat-card-title>
-                </mat-card-title-group>
-            </mat-card-header>
+<h2>Contatos</h2>
 
-            <mat-card-content>
-                
-                <div class="row mt-4 rowItens" *ngFor="let contato of contatos">
+<div class="row" *ngFor="let con of contatos">
 
-                    <div class="col-2 col-md-2 col-lg-1">
+    <div class="col-5 col-md-4 text">
 
-                        <a href="{{contato.link}}" target="_blank">
-                            <i [className]="contato.icon"></i>
-                        </a>
-                        
-                    </div>
-                    
+        <span class="textSpan">
+            {{con.text}}
+        </span>
 
-                    <div class="col-10 col-md-10 col-lg-11 center">
-
-                        <a href="{{contato.link}}" class="contato-link" target="_blank">
-                            <span>{{contato.span}}</span>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </mat-card-content>
-
-        </mat-card>
     </div>
+
+    <div class="col-6 col-md-8">
+
+        <a href="{{con.link}}" class="contato-link" target="_blank">
+            <i class="fi fi-rr-arrow-up-right"></i> <span class="link">{{con.span}}</span>
+        </a>
+
+    </div>
+
 </div>
