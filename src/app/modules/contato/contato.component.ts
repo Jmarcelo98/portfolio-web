@@ -18,9 +18,7 @@ export class ContatoComponent implements OnInit {
 
   getContatos() {
     this.contatoService.getContatos().subscribe(res => {
-      this.contatos = res;  
-      console.log(res);
-      
+      this.contatos = res;      
     }, err => {
       console.log(err);
     })

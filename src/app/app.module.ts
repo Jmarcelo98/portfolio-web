@@ -17,12 +17,12 @@ import { InMemoryDataMock } from './core/mocks/in-memory-data.mock';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatSidenavModule,
     HttpClientModule,
     AppRoutingModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataMock, { dataEncapsulation: false, delay: 200, passThruUnknownUrl: true },
     ),
-    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
