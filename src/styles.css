@@ -68,7 +68,7 @@ a {
 .line {
     position: absolute;
     width: 1px;
-    height: 100%;
+    height: 70%;
     left: 50%;
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
