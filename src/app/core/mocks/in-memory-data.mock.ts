@@ -110,17 +110,21 @@ export class InMemoryDataMock implements InMemoryDbService {
             {
                 link: "mailto:joaomarcelo588@gmail.com",
                 span: "joaomarcelo588@gmail.com",
-                text: "E-mail"
+                text: "E-mail",
+                icon: "fi fi-rr-envelope icon"
             },
             {
                 link: "https://linkedin.com/in/jmarcelo98",
                 span: "linkedin.com/in/jmarcelo98",
-                text: "LinkedIn"
+                text: "LinkedIn",
+                icon: "fi fi-brands-linkedin icon"
             },
             {
                 link: "tel:+5561994322941",
                 span: "(61) 99432-2941",
-                text: "Telefone/WhatsApp"
+                text: "Telefone",
+                subText: "WhatsApp",
+                icon: "fi fi-brands-whatsapp icon"
             },
 
         ]
