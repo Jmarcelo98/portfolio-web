@@ -1,7 +1,24 @@
 <h2>Contatos</h2>
 
-
 <div class="row mb-3" *ngFor="let con of contatos">
+
+    <div class="col-1">
+        <i [className]="con?.icon"></i>
+    </div>
+
+    <div class="col-11">
+
+        <a href="{{con.link}}" class="contato-link" target="_blank">
+            <!-- <i class="fi fi-rr-arrow-up-right"></i>  -->
+            <span class="link">{{con.span}}</span>
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- <div class="row mb-3" *ngFor="let con of contatos">
     <div class="col-12 col-md-6">
         <mat-card class="example-card">
 
@@ -17,7 +34,6 @@
                 <div class="row mt-4">
                     <div class="col-2 col-lg-3">
                         <i [className]="con?.icon"></i>
-                        <!-- <img src="{{con.imagem}}" [title]="con?.nome"> -->
                     </div>
 
                     <div class="col-10 col-lg-9">
@@ -36,4 +52,4 @@
             </mat-card-content>
         </mat-card>
     </div>
-</div>
+</div> -->
